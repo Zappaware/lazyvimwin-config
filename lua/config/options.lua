@@ -10,3 +10,8 @@ vim.g.lazyvim_python_ruff = "ruff"
 vim.diagnostic.config({
   virtual_text = false,
 })
+
+vim.opt.shell = "pwsh"
+vim.opt.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command"
+vim.opt.shellquote = ""
+vim.opt.shellxquote = ""
